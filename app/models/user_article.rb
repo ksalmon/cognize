@@ -1,0 +1,3 @@
+class UserArticle < ApplicationRecord
+
+end
