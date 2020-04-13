@@ -4,6 +4,6 @@ class RssFetch::HackerNewsJob
   sidekiq_options queue: 'low'
 
   def perform
-    puts "Fire the Sidekiq Job For Hacker News"
+    puts "Hey Kyle!!!"
   end
 end

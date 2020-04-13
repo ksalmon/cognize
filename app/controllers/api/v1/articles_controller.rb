@@ -3,7 +3,7 @@
 class Api::V1::ArticlesController < ApplicationController
 
   def index 
-    @articles = Articles.all
+    @articles = Article.all
     render json: @articles, each_serializer: Api::V1::ArticleSerializer
   end
 
